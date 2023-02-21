@@ -1,0 +1,18 @@
+---
+import type { IFrontmatter } from 'astro-boilerplate-components';
+
+import { CTA } from '@/partials/CTA';
+import Base from '@/templates/Base.astro';
+import { AppConfig } from '@/utils/AppConfig';
+
+export interface Props {
+  content: IFrontmatter;
+}
+
+const { content } = Astro.props as Props;
+const title = `${content.title} - ${AppConfig.site_name}`;
+---
+<Base head={{ title, description: content.description }}>
+
+  <CTA />
+</Base>
