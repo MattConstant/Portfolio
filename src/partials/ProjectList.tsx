@@ -19,7 +19,7 @@ const ProjectList = () => (
         name="Locus Point"
         description="An app that allows movie location scouts to find the perfect location for their next film, with a current waitlist of 100+ users!"
         link="https://github.com/LocafyORG"
-        img={{ src: '/assets/images/camera.png', alt: 'Project Maps' }}
+        img={{ src: '/assets/images/Camera.png', alt: 'Project Maps' }}
         category={
           <>
             <Tags color={ColorTags.FUCHSIA}>React.js</Tags>
@@ -63,7 +63,7 @@ const ProjectList = () => (
         name="Focus Logistics"
         description="A logistics company site made for a client"
         link="https://logistics-site-henna.vercel.app/"
-        img={{ src: '/assets/images/delivery.png', alt: 'Project Maps' }}
+        img={{ src: '/assets/images/Delivery.png', alt: 'Project Maps' }}
         category={
           <>
             <Tags color={ColorTags.FUCHSIA}>MongoDB</Tags>
@@ -76,7 +76,7 @@ const ProjectList = () => (
         name="TrackBuddy"
         description="A web app that allows users to track their driving on the track and improve their driving skills using AI"
         link="https://trackbuddy-frontend-l9wl.vercel.app/"
-        img={{ src: '/assets/images/car.png', alt: 'Project Maps' }}
+        img={{ src: '/assets/images/Car.png', alt: 'Project Maps' }}
         category={
           <>
             <Tags color={ColorTags.FUCHSIA}>SQL</Tags>
