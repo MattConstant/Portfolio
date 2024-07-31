@@ -33,9 +33,13 @@ const Navbar = () => (
       </a>
 
       <NavMenu>
-        <NavMenuItem href="https://www.linkedin.com/in/matthieu-constant-b9a171221/">Linkedin</NavMenuItem>
-        <NavMenuItem href="https://www.linkedin.com/in/matthieu-constant-b9a171221/">GitHub</NavMenuItem>
-        <NavMenuItem href="https://devpost.com/matthieu-constant7792?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav">Devpost</NavMenuItem>
+        <NavMenuItem href="https://www.linkedin.com/in/matthieu-constant-b9a171221/">
+          Linkedin
+        </NavMenuItem>
+        <NavMenuItem href="https://github.com/MattConstant">GitHub</NavMenuItem>
+        <NavMenuItem href="https://devpost.com/matthieu-constant7792?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav">
+          Devpost
+        </NavMenuItem>
       </NavMenu>
     </NavbarTwoColumns>
   </Section>
